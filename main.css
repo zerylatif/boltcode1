@@ -658,3 +658,83 @@ card__body p{
     background: none;
 
 }
+
+/* stats */
+
+.counter-up{
+    background: #000;
+    color: #fff;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.counter-up .content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+   
+}
+
+
+
+.content .box{
+    width: calc(25% - 30px);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    flex-direction: column;
+
+
+}
+
+.content .box .icon{
+    font-size: 48px;
+    color: #fff;
+}
+
+
+.content .box .counter{
+    font-size: 50px;
+    color: #007bff;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif
+}
+
+.content .box .text{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 1036px){
+    .counter-up{
+        padding: 50px 50px 0 50px;
+    }
+    .content .box{
+        width: calc(50% - 30%);
+        margin-bottom: 50px;
+
+    }
+}
+
+
+@media (max-width: 580px){
+    .content .box{
+        width: 100;
+    }
+}
+
+
+
+
+
+
+
+
+/* end stats */
